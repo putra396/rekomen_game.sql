@@ -1,0 +1,71 @@
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" 
+    android:orientation="vertical">
+
+ 	<LinearLayout 
+ 	    android:layout_width="fill_parent"
+ 	    android:layout_height="wrap_content"
+ 	    android:background="#AAF"
+ 	    android:orientation="vertical">
+ 	    <TextView 
+ 	        android:text="APLIKASIKU"
+ 	        android:layout_width="wrap_content"
+ 	        android:layout_height="wrap_content"
+ 	        android:textColor="#FFF"
+ 	        android:layout_gravity="center"
+ 	        />
+ 	    <TextView 
+ 	        android:text="NAMA : YUSUP"
+ 	        android:layout_width="wrap_content"
+ 	        android:layout_height="wrap_content"
+ 	        android:textColor="#FFF"
+ 	        />
+ 	    <TextView 
+ 	        android:text="KELAS : XI"
+ 	        android:layout_width="wrap_content"
+ 	        android:layout_height="wrap_content"
+ 	        android:textColor="#FFF"
+ 	        />
+ 	    <TextView 
+ 	        android:text="JURUSAN : OA"
+ 	        android:layout_width="wrap_content"
+ 	        android:layout_height="wrap_content"
+ 	        android:textColor="#FFF"
+ 	        />
+ 	</LinearLayout>
+ 	
+ 	<LinearLayout
+ 	        android:layout_width="fill_parent"
+ 	        android:layout_height="wrap_content"
+ 	        android:orientation="horizontal"
+ 	        android:background="#FFA">
+ 	       
+     <TextView 
+ 	        android:text="1"
+ 	        android:layout_width="wrap_content"
+ 	        android:layout_height="wrap_content"
+ 	        android:textColor="#FFF"
+ 	        />
+      <TextView 
+ 	        android:text="2"
+ 	        android:layout_width="wrap_content"
+ 	        android:layout_height="wrap_content"
+ 	        android:textColor="#FFF"
+ 	        />
+       <TextView 
+ 	        android:text="3"
+ 	        android:layout_width="wrap_content"
+ 	        android:layout_height="wrap_content"
+ 	        android:textColor="#FFF"
+ 	        />
+ 	        />
+ 	</LinearLayout>
+ 
+ </LinearLayout>

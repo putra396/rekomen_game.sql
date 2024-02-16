@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yusup.multi_page"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="18"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+        <activity
+            android:name="com.yusup.multi_page.Login"
+            android:label="@string/title_activity_login" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.yusup.multi_page.Utama"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.yusup.multi_page.Profil"
+            android:label="@string/title_activity_profil" >
+        </activity>
+        <activity
+            android:name="com.yusup.multi_page.MainActivity"
+            android:label="@string/title_activity_main" >
+        </activity>
+        <activity
+            android:name="com.yusup.multi_page.Edit_pageActivity"
+            android:label="@string/title_activity_edit_page" >
+        </activity>
+        <activity
+            android:name="com.yusup.multi_page.Edit"
+            android:label="@string/title_activity_edit" >
+        </activity>
+    </application>
+
+</manifest>
